@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+About:
 
-* Ruby version
+* Ruby version ~2.3
 
-* System dependencies
+* Rails 5.0.0
 
-* Configuration
+* OS Win 10
 
-* Database creation
+* Database: PostgreSQL
 
-* Database initialization
+* Deploy: Heroku
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Aplikacja ma na celu ułatwić korzystanie z bazy danych
