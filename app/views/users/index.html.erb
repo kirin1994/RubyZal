@@ -1,8 +1,7 @@
-<div id="notice">
-<div class="alert alert-success" role="alert">
+<p id="notice">
 <%= notice %>
-</div>
-</div>
+</p>
+
 <h1>Użytkownicy</h1>
 <%= form_tag users_path, :method => 'get' do %>
 <%= text_field_tag :search, params[:search] %>
