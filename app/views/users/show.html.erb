@@ -37,6 +37,9 @@
   <strong>Informacje dodatkowe:</strong>
   <%= @user.Informacje_dodatkowe %>
 </p>
-
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
+
+
+<%= render 'cars/cars' %>
+<%= render 'cars/form' %>
