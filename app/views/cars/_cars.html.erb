@@ -1,0 +1,11 @@
+<h4>Lista aut<h4>
+<% @user.cars.each do |car| %>
+<div class="well">
+<p><strong><%=car.brand%></strong>
+  <%=car.model %>
+  <%= link_to '[x]', [car.user, car],
+  method: :delete,
+  data: {confirm: 'Are you sure?'}%></p>
+</p>
+</div>
+<%end%>

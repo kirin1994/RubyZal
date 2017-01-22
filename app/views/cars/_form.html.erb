@@ -1,0 +1,14 @@
+<h3>Dodaj auto<h3>
+<%= form_for([@user,@user.cars.build]) do |f| %>
+  <p>
+  <%= f.label :brand %><br>
+  <%= f.text_field(:brand, {:class => 'form-control'})%>
+  </p>
+  <p>
+  <%= f.label :model %><br>
+  <%= f.text_field(:model,{:class => 'form-control'} )%>
+  </p>
+  <p>
+  <%= f.submit({:class => 'btn btn-default'}) %>
+  </p>
+<%end%>

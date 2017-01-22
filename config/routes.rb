@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :users
-
+  devise_for :accounts
+  resources :users do
+  resources :cars
+  end
   root 'home#index'
 
 
